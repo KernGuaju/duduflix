@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(rgb(36, 34, 34), #000);
+}
+img{
+    margin: 130px 0 0 200px;
+    transition: .5s;
+}
+img:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, .8)
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 500px 0 500px;
+    font-family: tahoma;
+    color: rgb(149, 11, 11);
+    font-weight: bold;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 10px;
+    transition: .2s;
+}
+h1:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .8);
+    color: rgb(200, 12, 12);
+
+}
